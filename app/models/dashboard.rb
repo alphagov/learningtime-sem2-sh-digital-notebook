@@ -1,5 +1,5 @@
 class Dashboard < ApplicationRecord
-  has_many :users
+  belongs_to :user
   has_many :notes
   has_many :checklists
 end
