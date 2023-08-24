@@ -71,4 +71,6 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'sass-rails', '~> 6.0'
+gem "sassc-rails"
+gem 'better_errors'
+gem 'binding_of_caller'
