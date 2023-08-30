@@ -1,0 +1,30 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-top: 2rem;
+
+  &__logo {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__links {
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__links-left,
+  &__links-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #333;
+  }
+
+}
