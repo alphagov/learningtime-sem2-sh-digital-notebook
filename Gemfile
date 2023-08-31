@@ -77,3 +77,5 @@ gem 'better_errors'
 gem 'binding_of_caller'
 
 gem "activesupport", ">= 7.0.7.1"
+
+gem "cloudinary"
