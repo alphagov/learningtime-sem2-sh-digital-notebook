@@ -4,7 +4,12 @@
     <%= link_to "Our Story", "#", class: "navbar__link"  %>
     <%= link_to "Blog", "#", class: "navbar__link"  %>
   </div>
-  <div class="navbar__logo">LearnedIt</div>
+  <div class="navbar__logo">
+    <%= cl_image_tag("https://res.cloudinary.com/dtjuz4kkr/image/upload/v1693485550/LearnedIt_logo_graphic_jghkns.png", height: 20) %>
+    <h1 class="navbar__logo-text">
+      LearnedIt
+    </h1>
+  </div>
   <div class="navbar__links-right">
     <%= link_to "Contact", "#", class: "navbar__link"  %>
     <%= link_to "Log In", "#", class: "navbar__link"  %>
