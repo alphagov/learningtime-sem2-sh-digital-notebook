@@ -1,0 +1,14 @@
+.landing {
+
+  width: 90%;
+  margin: 0 auto; /* We do this so we can center the landing horizontally*/
+  margin-top: 1.5rem;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background: -webkit-linear-gradient(to right, #FFE4CB, #F3E9D9, #E8E0E1, #D9D4EC);
+  background: linear-gradient(to right, #FFE4CB, #F3E9D9, #E8E0E1, #D9D4EC);
+  border-radius: 45px;
+}
