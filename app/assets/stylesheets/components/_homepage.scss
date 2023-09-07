@@ -15,4 +15,14 @@
   #landing__main-image {
     height: 65vh;
   }
+
+  &__main-text {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+
+  &__main-text-right {
+    display: inherit;
+    text-align: right;
+  }
 }
