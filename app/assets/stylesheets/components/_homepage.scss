@@ -16,6 +16,7 @@
 
   #landing__main-image {
     height: 65vh;
+    z-index: 1;
   }
 
   &__slogan {
@@ -51,6 +52,25 @@
   &__support-text {
     font-size: 1.2rem;
     font-weight: 400;
+  }
+
+  &__circle {
+    width: 381px;
+    height: 381px;
+    border-radius: 50%;
+
+    background: linear-gradient(
+    30deg, /* Adjust the angle as needed */
+    #ff6636 0%,     /* Adjust this percentage for the starting color */
+    #FF9518 35%,    /* Adjust this percentage for the second color */
+    #FFB700 50%,    /* Adjust this percentage for the third color */
+    #71CDA1 80%,    /* Adjust this percentage for the fourth color */
+    #00D9FF 85%
+  );
+
+    position: absolute;
+    left: 15vh;
+    top: 15vh;
   }
 }
 
