@@ -26,8 +26,8 @@
 
   &__main-bg-image {
     position: absolute; /* Position it behind the text */
-    top: 15vh;
-    left: 36vh;
+    top: 11.5vh;
+    left: 25vh;
     right: 0;
     bottom: 0;
     z-index: 1;
@@ -50,7 +50,7 @@
 
   &__support-text {
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 
