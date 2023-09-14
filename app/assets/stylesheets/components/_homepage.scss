@@ -59,14 +59,39 @@
     height: 381px;
     border-radius: 50%;
 
+    background: -webkit-linear-gradient(
+      30deg,
+      #ff6636 0%,
+      #FF9518 35%,
+      #FFB700 50%,
+      #71CDA1 80%,
+      #00D9FF 85%
+    );
+    background: -moz-linear-gradient(
+      30deg,
+      #ff6636 0%,    
+      #FF9518 35%, 
+      #FFB700 50%,
+      #71CDA1 80%, 
+      #00D9FF 85%
+    );
+    background: -o-linear-gradient(
+      30deg,
+      #ff6636 0%,    
+      #FF9518 35%, 
+      #FFB700 50%,
+      #71CDA1 80%, 
+      #00D9FF 85%
+    );
     background: linear-gradient(
-    30deg, /* Adjust the angle as needed */
-    #ff6636 0%,     /* Adjust this percentage for the starting color */
-    #FF9518 35%,    /* Adjust this percentage for the second color */
-    #FFB700 50%,    /* Adjust this percentage for the third color */
-    #71CDA1 80%,    /* Adjust this percentage for the fourth color */
-    #00D9FF 85%
-  );
+      30deg,
+      #ff6636 0%,    
+      #FF9518 35%, 
+      #FFB700 50%,
+      #71CDA1 80%, 
+      #00D9FF 85%
+    );
+
 
     position: absolute;
     left: 15vh;
