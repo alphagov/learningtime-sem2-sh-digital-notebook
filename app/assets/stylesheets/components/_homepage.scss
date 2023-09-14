@@ -1,0 +1,104 @@
+.landing {
+
+  width: 80%;
+  margin: 0 auto; /* We do this so we can center the landing horizontally*/
+  margin-top: 2rem;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background: -webkit-linear-gradient(to right, #FFE4CB, #F3E9D9, #E8E0E1, #D9D4EC);
+  background: linear-gradient(to right, #FFE4CB, #F3E9D9, #E8E0E1, #D9D4EC);
+  border-radius: 45px;
+
+  position: relative;
+
+  #landing__main-image {
+    height: 65vh;
+    z-index: 1;
+  }
+
+  &__slogan {
+    font-size: 1.3rem;
+    letter-spacing: 0.01rem;
+    font-weight: 500;
+  }
+
+  &__main-bg-image {
+    position: absolute; /* Position it behind the text */
+    top: 11.5vh;
+    left: 25vh;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 11vh;
+  }
+
+  &__main-text {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    position: relative;
+  }
+
+  &__main-text-right {
+    display: inherit;
+    text-align: right;
+    position: relative;
+    right: 15vh;
+    z-index: 2;
+  }
+
+  &__support-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  &__circle {
+    width: 381px;
+    height: 381px;
+    border-radius: 50%;
+
+    background: -webkit-linear-gradient(
+      30deg,
+      #ff6636 0%,
+      #FF9518 35%,
+      #FFB700 50%,
+      #71CDA1 80%,
+      #00D9FF 85%
+    );
+    background: -moz-linear-gradient(
+      30deg,
+      #ff6636 0%,    
+      #FF9518 35%, 
+      #FFB700 50%,
+      #71CDA1 80%, 
+      #00D9FF 85%
+    );
+    background: -o-linear-gradient(
+      30deg,
+      #ff6636 0%,    
+      #FF9518 35%, 
+      #FFB700 50%,
+      #71CDA1 80%, 
+      #00D9FF 85%
+    );
+    background: linear-gradient(
+      30deg,
+      #ff6636 0%,    
+      #FF9518 35%, 
+      #FFB700 50%,
+      #71CDA1 80%, 
+      #00D9FF 85%
+    );
+
+
+    position: absolute;
+    left: 15vh;
+    top: 15vh;
+  }
+}
+
+h1 {
+  margin: 0;
+}
