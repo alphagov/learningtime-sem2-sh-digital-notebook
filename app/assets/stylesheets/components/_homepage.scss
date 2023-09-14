@@ -12,17 +12,32 @@
   background: linear-gradient(to right, #FFE4CB, #F3E9D9, #E8E0E1, #D9D4EC);
   border-radius: 45px;
 
+  position: relative;
+
   #landing__main-image {
     height: 65vh;
+  }
+
+  &__main-bg-image {
+    position: absolute; /* Position it behind the text */
+    top: 13vh;
+    left: 18vh;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 9vh;
   }
 
   &__main-text {
     font-size: 3.5rem;
     line-height: 5rem;
+    position: relative;
   }
 
   &__main-text-right {
     display: inherit;
     text-align: right;
+    position: relative;
+    z-index: 2;
   }
 }
