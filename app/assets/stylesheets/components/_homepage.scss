@@ -108,8 +108,8 @@
   }
 
   &__primary-button {
-    background-color: #f2c4cf;
-    color: #e9e6f4;
+    background-color: $light-pink;
+    color: $off-pink;
     top: -17px;
     left: -4px;
   }
@@ -121,13 +121,13 @@
 
   &__secondary-button {
     margin-left: 5rem;
-    top: -23px;
-    left: 261px;
+    top: -17px;
+    left: 280px;
   }
 
   &__secondary-button:hover {
-    top: -15px;
-    left: 290px;
+    top: -11px;
+    left: 284px;
   }
 }
 
@@ -136,5 +136,9 @@ h1 {
 }
 
 .button.button-top.landing__primary-button {
-  background-color: #f6849e;
+  background-color: $dark-pink;
+}
+.button.button-top.landing__secondary-button {
+  background-color: $off-pink;
+  color: $dark-pink;
 }
