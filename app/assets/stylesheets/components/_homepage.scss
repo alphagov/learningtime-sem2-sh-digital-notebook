@@ -1,5 +1,4 @@
 .landing {
-
   width: 80%;
   margin: 0 auto; /* We do this so we can center the landing horizontally*/
   margin-top: 2rem;
@@ -8,8 +7,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  background: -webkit-linear-gradient(to right, #FFE4CB, #F3E9D9, #E8E0E1, #D9D4EC);
-  background: linear-gradient(to right, #FFE4CB, #F3E9D9, #E8E0E1, #D9D4EC);
+  background: -webkit-linear-gradient(
+    to right,
+    #ffe4cb,
+    #f3e9d9,
+    #e8e0e1,
+    #d9d4ec
+  );
+  background: linear-gradient(to right, #ffe4cb, #f3e9d9, #e8e0e1, #d9d4ec);
   border-radius: 45px;
 
   position: relative;
@@ -62,43 +67,78 @@
     background: -webkit-linear-gradient(
       30deg,
       #ff6636 0%,
-      #FF9518 35%,
-      #FFB700 50%,
-      #71CDA1 80%,
-      #00D9FF 85%
+      #ff9518 35%,
+      #ffb700 50%,
+      #71cda1 80%,
+      #00d9ff 85%
     );
     background: -moz-linear-gradient(
       30deg,
-      #ff6636 0%,    
-      #FF9518 35%, 
-      #FFB700 50%,
-      #71CDA1 80%, 
-      #00D9FF 85%
+      #ff6636 0%,
+      #ff9518 35%,
+      #ffb700 50%,
+      #71cda1 80%,
+      #00d9ff 85%
     );
     background: -o-linear-gradient(
       30deg,
-      #ff6636 0%,    
-      #FF9518 35%, 
-      #FFB700 50%,
-      #71CDA1 80%, 
-      #00D9FF 85%
+      #ff6636 0%,
+      #ff9518 35%,
+      #ffb700 50%,
+      #71cda1 80%,
+      #00d9ff 85%
     );
     background: linear-gradient(
       30deg,
-      #ff6636 0%,    
-      #FF9518 35%, 
-      #FFB700 50%,
-      #71CDA1 80%, 
-      #00D9FF 85%
+      #ff6636 0%,
+      #ff9518 35%,
+      #ffb700 50%,
+      #71cda1 80%,
+      #00d9ff 85%
     );
-
 
     position: absolute;
     left: 15vh;
     top: 15vh;
   }
+
+  &__buttons {
+    position: relative;
+    margin-top: 6rem;
+  }
+
+  &__primary-button {
+    background-color: $light-pink;
+    color: $off-pink;
+    top: -17px;
+    left: -4px;
+  }
+
+  &__primary-button:hover {
+    top: -11px;
+    left: 0px;
+  }
+
+  &__secondary-button {
+    margin-left: 5rem;
+    top: -17px;
+    left: 280px;
+  }
+
+  &__secondary-button:hover {
+    top: -11px;
+    left: 284px;
+  }
 }
 
 h1 {
   margin: 0;
+}
+
+.button.button-top.landing__primary-button {
+  background-color: $dark-pink;
+}
+.button.button-top.landing__secondary-button {
+  background-color: $off-pink;
+  color: $dark-pink;
 }
